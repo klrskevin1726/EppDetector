@@ -1,0 +1,22 @@
+# Entorno virtual
+venv/
+
+# Modelos base preentrenados (se pueden re-descargar, no son tuyos)
+yolov8n.pt
+yolov8s.pt
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+
+# Carpeta de resultados de YOLO
+runs/
+
+# Variables de entorno
+.env
+
+# Dataset (se descarga por separado, ver README)
+data/
+
+# Gradio cache
+.gradio/

@@ -1,0 +1,12 @@
+# Rutas al dataset (relativas a donde corras el entrenamiento)
+train: data/dataset/images/train
+val:   data/dataset/images/val
+
+# Número de clases
+nc: 3
+
+# Nombres de las clases — el orden importa, debe coincidir con el script de conversión
+names:
+  0: head
+  1: helmet
+  2: person
