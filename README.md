@@ -93,6 +93,9 @@ The trained model (`best.pt`) is included in this repo, so you don't need to ret
 
 ```
 EppDetector/
+├── main.py              # FastAPI REST API (production)
+├── Dockerfile           # Container definition for cloud deployment
+├── .dockerignore        # Files excluded from Docker image
 ├── app.py               # Gradio web demo
 ├── best.pt               # Trained YOLOv8 model weights
 ├── convert_dataset.py     # Pascal VOC XML -> YOLO format converter
