@@ -1,0 +1,13 @@
+venv/
+__pycache__/
+*.pyc
+runs/
+data/
+.git/
+.gradio/
+*.png
+*.jpg
+app.py
+explore_dataset.py
+convert_dataset.py
+test_my_model.py
