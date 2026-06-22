@@ -104,6 +104,14 @@ EppDetector/
 
 ---
 
+## 🌐 Live API
+
+The API is deployed and publicly accessible:
+
+- **Health check:** https://eppdetector-production.up.railway.app/health
+- **Interactive docs:** https://eppdetector-production.up.railway.app/docs
+- **Predict endpoint:** POST https://eppdetector-production.up.railway.app/predict
+
 ## ⚠️ Known Limitations
 
 - **Helmets held in hand vs. worn:** the model can produce false positives when a person is holding a helmet (e.g., in their hand) rather than wearing it, since this pattern was underrepresented in the training dataset. The model detects visual patterns near the head region rather than verifying the helmet is actually being worn.
